@@ -1,5 +1,5 @@
 # tiny-gate
-With **tiny-gate you can collect data from your device using Modbus TCP/IP protocol and store these data into SQL DBMS.
+With **tiny-gate** you can collect data from your device using Modbus TCP/IP protocol and store these data into SQL DBMS.
 
 You can use this template and adapt it with your system to get quick access on your device.
 
