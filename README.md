@@ -3,8 +3,6 @@ With **tiny-gate** you can collect data from your device using Modbus TCP/IP pro
 
 You can use this template and adapt it with your system to get quick access on your device.
 
-
-
 ## Installation
 ```
 sudo apt install python3-pip
