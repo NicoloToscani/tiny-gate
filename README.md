@@ -1,5 +1,5 @@
 # tiny-gate
-With tiny-gate you can collect data from yourn machine using Modbus TCP/IP protocol and store these data into SQL DBMS.
+With tiny-gate you can collect data from your machine using Modbus TCP/IP protocol and store these data into SQL DBMS.
 
 
 ## Installation
