@@ -1,2 +1,11 @@
 # tiny-gate
-Do you need to acquire data from your machine easily and quickly? Try this template.
+
+
+## Installation
+sudo apt install python3-pip
+pip3 install pymodbus
+pip3 install numpy
+
+
+
+
