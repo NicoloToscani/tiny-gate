@@ -62,15 +62,8 @@ error_code: 0
 Execution time: 0.0993814468383789 seconds 
 Error code:  0  description:  
 ------------------------------------
-
 ```
 
-
-
-
-
-
-![tiny_gate_example](tiny_gate_example.png)
 
 
 
