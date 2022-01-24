@@ -43,11 +43,10 @@ database name: tiny-store.db
 PLC connection: ONLINE
 Successfully Connected to SQLite
 ------------------------------------
-Timestamp:  2022-01-24 08:21:22.747219
+Timestamp:  2022-01-24 08:40:48.349342
 Connection state: ONLINE
-ReadHoldingRegistersResponse (20)
-value 0: 17345.0
-value 1: -3875.0
+value 0: 17347.0
+value 1: -14417.0
 value 2: -64.0
 value 3: 0.0
 value 4: -64.0
@@ -56,11 +55,11 @@ value 6: -64.0
 value 7: 0.0
 value 8: -64.0
 value 9: 0.0
-timestamp: 2022-01-24 08:21:22.747219
+timestamp: 2022-01-24 08:40:48.349342
 connection_state: 1
 error_code: 0
-Execution time: 0.0993814468383789 seconds 
-Error code:  0  description:  
+Execution time: 0.09619808197021484 seconds 
+Error code:  0  description:   
 ------------------------------------
 ```
 
