@@ -119,7 +119,7 @@ while True:
               register = 3025 # start address
               request = client.read_holding_registers(register, 20, unit = 1)
               
-              print(request)
+              # print(request)
               
               # decode_16_bit
               index_register = 0
