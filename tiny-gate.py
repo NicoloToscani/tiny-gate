@@ -21,7 +21,7 @@ conf_2 = '2-load setting'
 # Connection state init
 connection_state = 0
 
-write = '********** TINY-GATE **********\n\n'
+write = '*** TINY-GATE ***\n\n'
 print(write.center(150))
 print(conf_1)
 print(conf_2)
@@ -116,16 +116,16 @@ while True:
     
       try: 
               # Read 20 registers - 16 int
-              register = 1000 # start address
+              register = 3025 # start address
               request = client.read_holding_registers(register, 20, unit = 1)
               
-              # print(request.registers)
+              print(request)
               
               # decode_16_bit
               index_register = 0
               index_register_modbus = 0
               
-              for index_register in range (20):
+              for index_register in range (10):
               
                   temp_register_value_1 = request.registers[index_register_modbus]
                   temp_register_value_2 = request.registers[index_register_modbus + 1]
@@ -151,16 +151,16 @@ while True:
       cursor.execute("INSERT INTO Matrix (" + fields[0]  + "," + fields[1]  + "," + fields[2]  + "," + fields[3]  + "," + fields[4]  + "," + fields[5]  + "," + fields[6]  + "," + fields[7]  + "," + fields[8]  + "," + fields[9] + "," + fields[10] + "," + fields[11]+ "," + fields[12] + ") VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)", (values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7], values[8], values[9], timestamp, connection_state, error_code))
       
       # print values
-      print("field 0: " + str(values[0]))
-      print("field 0: " + str(values[1]))
-      print("field 0: " + str(values[2]))
-      print("field 0: " + str(values[3]))
-      print("field 0: " + str(values[4]))
-      print("field 0: " + str(values[5]))
-      print("field 0: " + str(values[6]))
-      print("field 0: " + str(values[7]))
-      print("field 0: " + str(values[8]))
-      print("field 0: " + str(values[9]))
+      print("value 0: " + str(values[0]))
+      print("value 1: " + str(values[1]))
+      print("value 2: " + str(values[2]))
+      print("value 3: " + str(values[3]))
+      print("value 4: " + str(values[4]))
+      print("value 5: " + str(values[5]))
+      print("value 6: " + str(values[6]))
+      print("value 7: " + str(values[7]))
+      print("value 8: " + str(values[8]))
+      print("value 9: " + str(values[9]))
       print("timestamp: " + str(timestamp))
       print("connection_state: " + str(connection_state))
       print("error_code: "  + str(error_code))
@@ -222,4 +222,3 @@ while True:
            error_code_desc = ""
 
         time.sleep(5)
-
