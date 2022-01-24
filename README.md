@@ -16,7 +16,7 @@ pip install pysqlite3
 python3 tiny-gate
 ```
 
-![tiny-gate-example](tiny-gate.png)
+![tiny_gate_example](tiny_gate.png)
 
 
 
